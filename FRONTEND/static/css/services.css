@@ -1,0 +1,92 @@
+/*
+Template Name: Agrigoal
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+/*********************services****************/
+#off{
+padding-top:40px;
+padding-bottom:40px; 
+ }
+#connect{
+padding-bottom:40px; 
+ }
+.connect_1{
+background: #394336;
+padding:40px 20px;
+margin-left:0;
+margin-right:0;
+ }
+.connect_2{
+margin-top:30px;
+ }
+
+.connect_2i{
+background:#f5f0e9;
+padding:40px 20px;
+border:1px solid #ddd;
+ }
+.connect_2il span{
+font-size:30px;
+line-height:0;
+ }
+.connect_2i:hover{
+background:#6d8f64;
+ }
+.connect_2i:hover h5{
+color:#fff; 
+ }
+.connect_2i:hover p{
+color:#fff; 
+ }
+.connect_2i:hover span{
+color:#fff!important; 
+ }
+/*********************services_end****************/
+
+
+@media screen and (max-width : 767px){
+.off1l h2{
+font-size:26px; 
+ }
+.off1r{
+margin-top:10px; 
+ }
+.connect_1r {
+margin-top:10px; 
+ }
+.connect_2ir {
+margin-top:10px;  
+ }
+.connect_2i {
+margin-top:10px!important;
+text-align:center;
+ }
+ }
+@media (min-width:768px) and (max-width:991px) {
+.off1l h2{
+font-size:26px; 
+ }
+.off1r img{
+height:520px;
+ }
+.connect_1r .button_1{
+ padding: 10px 10px 10px 10px;
+ }
+.connect_2il span {
+font-size: 20px;
+}
+ }
+@media (min-width:992px) and (max-width:1200px) {
+.off1r img{
+height:520px;
+ }
+.connect_1r .button_1{
+ padding: 10px 10px 10px 10px;
+ }
+.connect_2il span {
+font-size: 20px;
+}
+ }
